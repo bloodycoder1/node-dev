@@ -1,6 +1,6 @@
 const {MongoClient}=require("mongodb");
 
-const URI ="mongodb+srv://prajwal:GodGanesh123@cluster1.3jtkpvm.mongodb.net/"
+const URI ="mongodb+srv://username:password@cluster1.3jtkpvm.mongodb.net/"
 const client = new MongoClient(URI)
 const DBName = "Users";
 async function main(){
